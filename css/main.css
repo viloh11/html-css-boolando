@@ -189,3 +189,29 @@ main figure:hover .second-image{
     top: 920px;
 }
 
+/* FOOTER */
+
+footer{
+   background-color: #1A1A1A;
+   color: white; 
+   padding: 20px 20px;
+}
+
+.left-title{
+    padding: 10px 0px;
+}
+
+.left-side ul{
+    list-style: none;
+    font-size: 15px;
+    gap: 12px;
+}
+
+.left-side li:hover{
+    cursor: pointer;
+}
+
+.right-side{
+    align-self: flex-end;
+}
+
