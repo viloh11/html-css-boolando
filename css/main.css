@@ -213,5 +213,18 @@ footer{
 
 .right-side{
     align-self: flex-end;
+    text-align: center;
 }
 
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-container{
+    display: flex;
+}
+
+.icon-container i{
+    font-size: 20px;
+}
