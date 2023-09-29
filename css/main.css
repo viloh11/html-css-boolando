@@ -73,7 +73,8 @@ main{
 }
 
 main .row{
-    gap: 30px;
+    gap: 30px ;
+    padding: 20px 0px ;
 }
 
 .row{
@@ -138,6 +139,11 @@ main figure:hover .second-image{
     gap: 10px;
 }
 
+.second {
+    top: 1490px;
+
+}
+
 .off{
     background-color: red;
     color: white;
@@ -157,6 +163,10 @@ main figure:hover .second-image{
     left: 70px;
 }
 
+.only{
+    left: 0px;
+}
+
 .heart{
     justify-content: flex-end;
 }
@@ -164,7 +174,7 @@ main figure:hover .second-image{
 .heart-btn{
     background-color: white;
     position: absolute;
-    top: 145px;
+    top: 165px;
     font-size: 40px;
     padding: 0px 10px;
     transition: 0.3s linear;
@@ -173,5 +183,9 @@ main figure:hover .second-image{
 
 .heart-btn:hover{
     color: red;
+}
+
+.sec{
+    top: 920px;
 }
 
